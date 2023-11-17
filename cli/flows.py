@@ -14,7 +14,7 @@ def load_flow():
     print('.Loading data')
     raw_data = read_data_file(data_file)
     if raw_data is None:
-        print(f'Data file {data_file} not found')
+        print(f'{data_file} not found, exiting')
         exit()
     print('..Converting dates')
     converted_data = fc.date_format_converter(raw_data)

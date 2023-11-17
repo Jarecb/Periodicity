@@ -1,6 +1,5 @@
 # Periodicity
-This program performs interval analysis given a range of dates. It has features to normalise outliers and predict the 
-next date in the cycle
+This program analyses a set of dates to try to predict the next date in the sequence, outliers can be normalised
 
 ## Sample Data
 
@@ -46,8 +45,7 @@ The method used for predictions is based on projecting a multiple dates rolling 
 approach and needs to be tested by observation of real data. By default the prediction uses 4 data points to perform its 
 predictions
 
-# Development
-
+# Design
 ## Features
 
 1. ~~Extract dates from Google Calendar~~

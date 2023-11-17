@@ -11,7 +11,7 @@ def get_derive_events_selection():
         elif selection == "N":
             return False
         elif selection == "Q":
-            print('Thank you for using Periodicity, Goodbye')
+            print("Thank you for using Periodicity, goodbye")
             exit()
 
 
