@@ -1,23 +1,6 @@
 # Periodicity
-
-## Features
-
-1. ~~Extract dates from Google Calendar~~
-2. ~~Load dates from CSV~~
-3. ~~Load dates for json~~
-3. ~~Sort dates~~
-4. ~~Calculate elapsed days~~
-5. ~~Create CLI~~
-5. ~~Identify missing dates, use outliers. Estimate missing date as mid point~~
-6. ~~Calculate rolling three interval average~~
-7. ~~Plot to chart~~
-8. ~~Design prediction data set~~
-6. ~~Predict next date~~
-7. ~~Plot prediction to graph~~
-9. ~~Add Legend to chart~~
-8. ~~Make prediction period range dynamic~~
-7. Code refactoring
-
+This program performs interval analysis given a range of dates. It has features to normalise outliers and predict the 
+next date in the cycle
 
 ## Sample Data
 
@@ -62,3 +45,23 @@ Cyan = Next predicted date
 The method used for predictions is based on projecting a multiple dates rolling average forward. This is a hyperthetical
 approach and needs to be tested by observation of real data. By default the prediction uses 4 data points to perform its 
 predictions
+
+# Development
+
+## Features
+
+1. ~~Extract dates from Google Calendar~~
+2. ~~Load dates from CSV~~
+3. ~~Load dates for json~~
+3. ~~Sort dates~~
+4. ~~Calculate elapsed days~~
+5. ~~Create CLI~~
+5. ~~Identify missing dates, use outliers. Estimate missing date as mid point~~
+6. ~~Calculate rolling three interval average~~
+7. ~~Plot to chart~~
+8. ~~Design prediction data set~~
+6. ~~Predict next date~~
+7. ~~Plot prediction to graph~~
+9. ~~Add Legend to chart~~
+8. ~~Make prediction period range dynamic~~
+7. ~~Code refactoring~~
